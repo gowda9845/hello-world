@@ -40,6 +40,7 @@
                                 <transformer
                                     implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>hello.HelloWorld</mainClass>
+                                    <stripVersion>true</stripVersion>
                                 </transformer>
                             </transformers>
                         </configuration>
